@@ -8,23 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Meni -->
-    <div class="topnav1">
-        <ul>
-            <li><a href="externallinks.html" target="_blank"><b>Linkovi</b></a></li>
-            <li><a href="contact.html" target="_blank"><b>Kontakt</b></a></li>
+<!-- NAV -->
+    <nav class="topnav1">
+        <ul class="nav-items">
+            <li><a href="externallinks.html" class="nav-link">Linkovi</a></li>
         </ul>
-    </div>
-    <!-- Zaglavlje -->
+    </nav>
+<!-- Home -->
     <div class="textalign">
-        <h1>Web razvoj za apsolutne početnike</h1>
+        <h1 class="textalign-title">Web razvoj za apsolutne početnike</h1>
         <h4>Organizator: <a href="https://rishubuzice.rs/" target="_blank"  class="linkHub">Ris Hub Ue</a> <br> Predavač: Milan Josipović</h4>
-    <!-- Paragraf -->
-       <p>Kurs je namenjen apsolutnim početnicima u programiranju. Oblasti učenja su HTML, CSS i JavaScript. <br> Predviđeno je
+<!-- Paragraf -->
+       <p class="textalign-text">Kurs je namenjen apsolutnim početnicima u programiranju. Oblasti učenja su HTML, CSS i JavaScript. <br> Predviđeno je
             da kurs traje 3 meseca. Predavanja se održavaju 3 puta nedeljno, u terminima <u> PONEDELJAK, SREDA I PETAK OD 17H DO
                 19H.</u></p><br>
     </div>
-    <!-- Tabela -->
+<!-- Tabel -->
     <div class="divtabela">
         <table class="center">
             <tr>
@@ -198,12 +197,31 @@
                     </p>
                 </td>
             </tr>
+    <!-- arrow up -->
             <tr>
                 <td colspan="3">
                     <a class="arrow" href="#top">Vrh</a>
                 </td>
             </tr>
         </table><br>
-        <h3 class="quote">"Testing leads to failure, and failure leads to understanding."<br> - Burt Rutan</h3><br>
+<!-- end of table -->
+<!-- Contact -->
+        <div class="contact">
+                <h3>Kontakt za sva pitanja!</h3><br>
+                <form class="form" action="https://formspree.io/f/mwkwbnbw" method="POST">
+                    <div class="form1">
+                        <label for="ime">Vaše ime</label><br>
+                        <input type="text" id="ime"><br><br>
+                        <label for="email">Vaš e-mail</label><br>
+                        <input type="email" id="email"><br><br>
+                    </div>
+                    <div class="form2">
+                        <label for="poruka">Vaše pitanje ili poruka:</label><br>
+                        <textarea name="poruka" id="poruka" cols="25" rows="10"></textarea><br><br>
+                        <button type="submit"><b>Pošalji</b></button>
+                 </div>
+             </form>
+        </div>
+      
 </body>
 </html>
