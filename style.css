@@ -1,4 +1,8 @@
-/* All */
+/* 
+============================
+All 
+============================
+*/
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +21,11 @@
   --bcg-light: #f3d4b0;
   --bcg-table: rgb(70, 68, 68);
 }
-/* index */
+/* 
+===========================
+index & external links
+===========================
+*/
 .topnav1,
 .topnav2 {
   margin: 0 auto;
@@ -125,11 +133,18 @@ th {
   font-size: 1.2rem;
   text-shadow: 2px 2px 4px #000;
 }
+/* 
+====
+contact form
+==== 
+*/
 .contact {
   margin: 1rem auto;
   padding: 1rem;
   text-align: center;
   float: center;
+  color: var(--clr-primary);
+  text-shadow: 2px 2px 4px var(--clr-secondary);
 }
 .form input,
 textarea,
@@ -151,6 +166,9 @@ button {
   text-shadow: 2px 2px 2px grey;
   background: var(--bcg-light);
 }
+.btn-send {
+  border-radius: 20px;
+}
 .arrow {
   display: inline;
   float: right;
@@ -159,8 +177,11 @@ button {
   text-align: center;
 }
 
-/* MEDIA INDEX */
-
+/* 
+===============================
+MEDIA INDEX 
+===============================
+*/
 @media screen and (min-width: 576px) {
   :root {
     font-size: 1.1rem;
@@ -183,7 +204,7 @@ button {
   .center {
     float: right;
     width: 80vw;
-    margin-right: 2vw;
+    margin-right: 0.5vw;
   }
   .center1 {
     float: left;
@@ -191,29 +212,35 @@ button {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .form1,
-  .form2 {
+}
+@media screen and (min-width: 576px) and (max-width: 1060px) {
+  #form1,
+  #form2 {
     padding: 10px;
     float: left;
     width: 50%;
   }
-  .form2 textarea {
+  #form2 textarea {
     width: 300px;
     height: 80px;
   }
-  .form1 input {
+  #form1 input {
     width: 200px;
     height: 25px;
   }
-  .contact {
+  #contact {
     float: right;
     margin-right: 15vw;
   }
-  .arrow1 {
-    display: none;
+}
+@media screen and (min-width: 1060px) {
+  .contact {
+    margin-top: 5vw;
+    float: left;
+    text-align: left;
+    position: fixed;
   }
 }
-
 /* @keyframes animation {
   0% {
     opacity: 0;
