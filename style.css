@@ -20,6 +20,7 @@ All
   --bcg-dark: #0a4350;
   --bcg-light: #f3d4b0;
   --bcg-table: rgb(70, 68, 68);
+  --b-radius: 20px;
 }
 /* 
 ===========================
@@ -45,7 +46,7 @@ index & external links
   text-shadow: 2px 2px 4px #000;
   font-size: 1.5rem;
   background: var(--bcg-dark);
-  border-radius: 20px;
+  border-radius: var(--b-radius);
   line-height: 50px;
   display: inline-block;
 }
@@ -83,7 +84,7 @@ index & external links
   text-transform: capitalize;
   box-shadow: 5px 5px 7px grey;
   background-color: var(--bcg-light);
-  border-radius: 20px;
+  border-radius:  var(--b-radius);
   line-height: 30px;
   background-color: var(--bcg-table);
 }
@@ -117,7 +118,7 @@ th {
   background-color: var(--bcg-light);
   border-style: double;
   border-color: white;
-  border-radius: 20px;
+  border-radius:  var(--b-radius);
 }
 .linkHub:hover,
 .center a:hover,
@@ -143,8 +144,10 @@ contact form
   padding: 1rem;
   text-align: center;
   float: center;
-  color: var(--clr-primary);
-  text-shadow: 2px 2px 4px var(--clr-secondary);
+  color: var(--clr-secondary);
+  text-shadow: 2px 2px 4px var(--clr-primary);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius:  var(--b-radius);
 }
 .form input,
 textarea,
@@ -167,7 +170,7 @@ button {
   background: var(--bcg-light);
 }
 .btn-send {
-  border-radius: 20px;
+  border-radius:  var(--b-radius);
 }
 .arrow {
   display: inline;
@@ -187,7 +190,7 @@ MEDIA INDEX
     font-size: 1.1rem;
   }
   .topnav1 {
-    margin: 5px;
+    margin-left: 45px;
     padding: 5px;
     text-align: center;
     position: fixed;
@@ -213,7 +216,7 @@ MEDIA INDEX
     margin-bottom: 5px;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 1060px) {
+@media screen and (min-width: 576px) and (max-width: 1170px) {
   #form1,
   #form2 {
     padding: 10px;
@@ -221,8 +224,7 @@ MEDIA INDEX
     width: 50%;
   }
   #form2 textarea {
-    width: 300px;
-    height: 80px;
+    height: 85px;
   }
   #form1 input {
     width: 200px;
@@ -233,7 +235,7 @@ MEDIA INDEX
     margin-right: 15vw;
   }
 }
-@media screen and (min-width: 1060px) {
+@media screen and (min-width: 1170px) {
   .contact {
     margin-top: 5vw;
     float: left;
