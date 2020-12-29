@@ -84,7 +84,7 @@ index & external links
   text-transform: capitalize;
   box-shadow: 5px 5px 7px grey;
   background-color: var(--bcg-light);
-  border-radius:  var(--b-radius);
+  border-radius: var(--b-radius);
   line-height: 30px;
   background-color: var(--bcg-table);
 }
@@ -118,7 +118,7 @@ th {
   background-color: var(--bcg-light);
   border-style: double;
   border-color: white;
-  border-radius:  var(--b-radius);
+  border-radius: var(--b-radius);
 }
 .linkHub:hover,
 .center a:hover,
@@ -147,7 +147,7 @@ contact form
   color: var(--clr-secondary);
   text-shadow: 2px 2px 4px var(--clr-primary);
   background: rgba(0, 0, 0, 0.6);
-  border-radius:  var(--b-radius);
+  border-radius: var(--b-radius);
 }
 .form input,
 textarea,
@@ -170,7 +170,7 @@ button {
   background: var(--bcg-light);
 }
 .btn-send {
-  border-radius:  var(--b-radius);
+  border-radius: var(--b-radius);
 }
 .arrow {
   display: inline;
@@ -190,7 +190,7 @@ MEDIA INDEX
     font-size: 1.1rem;
   }
   .topnav1 {
-    margin-left: 45px;
+    margin: 5px;
     padding: 5px;
     text-align: center;
     position: fixed;
@@ -232,15 +232,19 @@ MEDIA INDEX
   }
   #contact {
     float: right;
-    margin-right: 15vw;
+    margin-right: 0.5vw;
   }
 }
 @media screen and (min-width: 1170px) {
   .contact {
     margin-top: 5vw;
+    margin-left: 5px;
     float: left;
     text-align: left;
     position: fixed;
+  }
+  .arrow1 {
+    display: none;
   }
 }
 /* @keyframes animation {
