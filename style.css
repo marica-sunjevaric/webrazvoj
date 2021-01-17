@@ -29,15 +29,19 @@ index & external links
 */
 .topnav1,
 .topnav2 {
-  margin: 0 auto;
+  margin: 1rem auto;
   text-align: center;
 }
 .nav-items {
   display: inline-block;
   margin: 5px;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .nav-link {
+  margin: 0.3rem;
   width: 100px;
   height: 50px;
   color: var(--clr-secondary);
@@ -234,6 +238,10 @@ MEDIA INDEX
     float: right;
     margin-right: 0.5vw;
   }
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 1170px) {
   .contact {
@@ -244,6 +252,9 @@ MEDIA INDEX
     position: fixed;
   }
   .arrow1 {
+    display: none;
+  }
+  .link-contact {
     display: none;
   }
 }
