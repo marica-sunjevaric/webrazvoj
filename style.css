@@ -84,10 +84,10 @@ index & external links
   margin: 1px auto;
   padding: 1rem;
   color: var(--clr-secondary);
+  /* text-shadow: 2px 2px 4px black; */
   text-align: left;
   text-transform: capitalize;
   box-shadow: 5px 5px 7px grey;
-  background-color: var(--bcg-light);
   border-radius: var(--b-radius);
   line-height: 30px;
   background-color: var(--bcg-table);
@@ -255,6 +255,9 @@ MEDIA INDEX
     display: none;
   }
   .link-contact {
+    display: none;
+  }
+  .topnav2 {
     display: none;
   }
 }
