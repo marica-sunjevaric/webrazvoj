@@ -27,6 +27,22 @@ All
 index & external links
 ===========================
 */
+.GitHubResources {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  margin: 0.75rem 1rem;
+  color: var(--clr-secondary);
+  text-shadow: 2px 2px 4px black;
+  text-transform: uppercase;
+}
+.GitHubResources:hover {
+  color: var(--clr-links);
+}
+.nav-btn {
+  margin: 5rem 1rem;
+  padding: 2rem;
+}
 .topnav1,
 .topnav2 {
   margin: 1rem auto;
