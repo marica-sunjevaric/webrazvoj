@@ -140,6 +140,10 @@ th {
   border-color: white;
   border-radius: var(--b-radius);
 }
+
+.center a {
+  font-size: 1.3rem;
+}
 .linkHub:hover,
 .center a:hover,
 .center1 a:hover {
