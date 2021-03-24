@@ -23,6 +23,7 @@ All
   --bcg-table: rgb(70, 68, 68);
   --b-radius: 20px;
 }
+
 /* 
 ===========================
 index & external links
@@ -164,7 +165,7 @@ th {
 contact form
 ==== 
 */
-.contact {
+/* .contact {
   margin: 1rem auto;
   padding: 1rem;
   text-align: center;
@@ -196,7 +197,7 @@ button {
 }
 .btn-send {
   border-radius: var(--b-radius);
-}
+} */
 .arrow {
   display: inline;
   float: right;
@@ -204,7 +205,27 @@ button {
   height: 30px;
   text-align: center;
 }
+.caption {
+    position: sticky;
+    top: 0;
+  }
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  text-align: center;
 
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--clr-links);
+ text-shadow: 1px 1px 2px var(--clr-secondary);
+ font-weight: bold;
+}
 /* 
 ===============================
 MEDIA INDEX 
@@ -240,9 +261,10 @@ MEDIA INDEX
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  
 }
 @media screen and (min-width: 576px) and (max-width: 1170px) {
-  #form1,
+  /* #form1,
   #form2 {
     padding: 10px;
     float: left;
@@ -254,24 +276,31 @@ MEDIA INDEX
   #form1 input {
     width: 200px;
     height: 25px;
-  }
-  #contact {
+  } */
+  /* #contact {
     float: right;
     margin-right: 0.5vw;
-  }
+  } */
   .nav-items {
     display: flex;
     flex-direction: column;
   }
+  .textalign {
+    margin-left: 4rem;
+  }
+  .divtabela {
+    margin-left: 4rem;
+  }
 }
 @media screen and (min-width: 1170px) {
-  .contact {
+  /* .contact {
     margin-top: 5vw;
     margin-left: 5px;
     float: left;
     text-align: left;
     position: fixed;
-  }
+  } */
+  
   .arrow1 {
     display: none;
   }
